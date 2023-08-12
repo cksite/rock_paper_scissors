@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>rock_paper_scissors</title>
+</head>
+
+<body>
+  <div>
+    <h1 class="head">---Play the Game---</h1>
+  </div>
+  <div class="box">
+    <h3 class="choice">Choose your choice</h3>
+    <div class="img">
+
+
+      <img src="img/rock.jpeg" class="imgstyle" id="t1" onclick="rock()">
+            <img src=" img/paper.jpeg" class="imgstyle" id="t2" onclick="paper()">
+      <img src="img/scissors.jpeg" class="imgstyle" id="t3" onclick="scissors()">
+
+    </div>
+    <br>
+    <br>
+    <div id = "showres">you select result: &nbsp;<span id = "yousel"></span></div>
+    <br>
+    <div id = "showres">computer select: &nbsp;<span id = "compsel"></span></div>
+    <br>
+    <div id = "showres"><span id = "finalres"></span></div>
+    <br>
+    <div class="btn">
+      <button onclick="call()" class="btn1">Play Now</button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <h2>Design by asit sahoo</h2>
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
